@@ -27,7 +27,7 @@ function Menubar() {
                         </li>
                         <li><Link to="/comingsoon">information</Link></li>
                         <li><Link to="/contactus">Helpdesk</Link></li>
-                        <li className="login"><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">login</a></li>
+                        <li className="login"><a href={process.env.REACT_APP_HOST_URL+"/citizen"} rel="noreferrer">login</a></li>
 
                     </ul>
 
