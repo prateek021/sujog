@@ -17,7 +17,8 @@ function Menubar() {
                         <li><Link to="/aboutus" >About Us</Link></li>
                         <li className="drop-down"><Link to="/comingsoon">Services</Link>
                             <ul>
-                                <li><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">OBPAS</a></li>
+                                {/* <li><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">OBPAS</a></li> */}
+                                <li><Link to="/comingsoon">OBPAS</Link></li>
                                 <li><Link to="/comingsoon">Public Grievance Redressal</Link></li>
                                 <li><Link to="/comingsoon">Property Tax</Link></li>
                                 <li><Link to="/comingsoon">Water & Sewerage</Link></li>
@@ -26,7 +27,7 @@ function Menubar() {
                         </li>
                         <li><Link to="/comingsoon">information</Link></li>
                         <li><Link to="/contactus">Helpdesk</Link></li>
-                        <li className="login"><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">login</a></li>
+                        <li className="login"><a href={process.env.REACT_APP_HOST_URL+"/citizen"} rel="noreferrer">login</a></li>
 
                     </ul>
 
