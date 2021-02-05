@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #hero {
   width:83%;
-  height: calc(100vh - 114px);
+  height:448px;
   padding: 0;
   overflow: hidden;
 }
@@ -354,7 +354,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 100%;
   /* height: calc(100vh - 114px);*/
   height:448px;
-  background-size: cover;
+  
   background-position: top right;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -362,9 +362,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(255, 255, 255, 0.2);
+  /*background-color: rgba(255, 255, 255, 0.2);*/
   position: absolute;
-  height: 100%;
+  height:448px;
   width: 100%;
   top: 0;
   right: 0;
@@ -597,6 +597,7 @@ section {
 
 .about .video-box img {
   padding: 15px 0;
+      margin: 0px 0px 20px 0px;
 }
 
 .about .section-title p {
@@ -820,7 +821,7 @@ section {
   border-radius:5px;
   display:inline-block;
   width:100%;
-  height:185px;
+  height:245px;
 }
 
 .counts .count-box2 {
@@ -1554,6 +1555,8 @@ section {
 .section-bg2 .section-title p{padding:0px 30px; color:#5b5b5b; font-size:16px;}
 .section-bg2 .services-part1{background-color:#fff; padding:20px; border-radius:5px;}
 .servic-right{display: inline; float: right; width: 80%;}
+.servic-right a{color:#000;}
+.servic-right a:hover{color:#428bca;}
 .servic-right p{line-height:28px; color:#727272;}
 .servic-right p a{font-size:12px;}
 .section-bg .count-box2:hover{background-color:#000; transition: all ease-in-out 0.4s;}
@@ -1566,23 +1569,23 @@ section {
 .body1-left-side{  width: 100%; height: auto; margin:0px 0px 0px 0px;}
 .block-hdnews {}
 .block-hdnews {margin:5px auto; }
-.list-wrpaaer {height:470px}
+.list-wrpaaer {height:390px}
 .list-wrpaaer ul{ margin:0px;}
 .list-wrpaaer ul li{list-style:none; padding:15px 20px; display:inline-flex; }
 .tibar-simple { }
 .list-aggregate li { border-bottom-color: #e5e5e5 }
 .list-aggregate li a { color:#056db1; }
-.list-aggregate li{height:120px; border-bottom:1px solid #8e73ad;}
+.list-aggregate li{height:auto; border-bottom:1px solid #8e73ad;}
 .list-aggregate li p { color:#686666; padding:0px; margin:0px; text-align:justify;  font-size: 12px; line-height:px;1 font-weight: 500; }
 .list-aggregate li:hover { background-color: rgba(36, 1, 77, 0.1);}
-.buy-policy-2 h3{font-size:20px; text-align:left; color:#0579c6;}
+.buy-policy-2 h3{font-size:15px; text-align:justify; color:#0579c6;}
 .policy-img2{width:75px; height:75px; border-radius:50%; background-color:#0579c6;}
 .policy-img2 h4{font-size:20px; line-height:13px; font-weight:bold; color:#fff; margin:0px; padding:24px 0px 0px 0px;}
 .policy-img2 span{font-size:12px; color:#fff;}
 .list-aggregate{left:-41px !important;}
 .buy-policy-2{float:right; width:80%; padding:0px 15px; }
 
-.odisha-map{float:right; height:auto; background-color:#fff; border-radius:10px; width:80%;     box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);}
+.odisha-map{float:right; height:auto; background-color:#fff; border-radius:10px; width:100%;     box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);}
 .odisha-map img{width:100%;}
 .ulb h2{color:#0579c6; font-size:40px; margin:0px; padding:0px 0px 10px 0px; }
 .servic-right p a:hover{color:#000;}
@@ -1595,7 +1598,94 @@ section {
 .contact h1{color:#5f6061; } 
 .inner-page p{font-size:14px; line-height:30px;}
 .icon-box .description .bx{font-size:30px; padding:0px; margin:0px;font-weight:bold;}
+.about-pading{margin:30px 0px 0px 0px !important; width:100%; float:left;}
+.text1 p{text-align:justify;}
 
 
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1111; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content { width: 100%;}
+}
 
 

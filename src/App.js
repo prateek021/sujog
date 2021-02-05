@@ -13,6 +13,8 @@ import {
 import Aboutus from "./Components/AboutUs";
 import ContactUs from "./Components/ContactUs";
 import ComingSoon from "./Components/ComingSoon";
+import Rti from "./Components/RTI";
+import Dashboard from "./Components/dashboard";
 function App() {
   return (
     <>
@@ -35,6 +37,8 @@ function App() {
         <Route path="/aboutus" component={Aboutus} />
         <Route path="/contactus" component={ContactUs} />
         <Route path="/comingsoon" component={ComingSoon} />
+        <Route path="/rti" component={Rti} />
+        <Route path="/dashboard" component={Dashboard} />
       </Switch>
       <Footer />
     </>
