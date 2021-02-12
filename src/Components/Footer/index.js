@@ -51,7 +51,7 @@ function Footer() {
 
           <div class="container">
             <div class="copyright">
-              <p>@2021  Govt. of Odisha. Design & Developed by sujog. Site best viewed in Chrome, Mozila and IE 11 and above (1280 X 800)</p>
+              <p>@2021  Govt. of Odisha. Design & Developed by sujog. Site best viewed in Chrome and above (1280 X 800)</p>
             </div>
 
           </div>
