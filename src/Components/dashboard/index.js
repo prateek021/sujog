@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {Helmet} from "react-helmet";
 
 function Dashboard() {
@@ -29,14 +28,14 @@ function Dashboard() {
                       	 <div class="col">
 							<div class="row">
 							<div class="col-xl-6 col-md-6 mb-4 card">
-							 <div class="card-header">Public Dashboard <span class="lart1">Last Update: 31.12.2020</span></div>
+							 <div class="card-header">Public Dashboard <span class="lart1">Last Update: 06.02.2021</span></div>
 
 								<div class="row card-body">
 
 									 <div class="container">
 	<div class="row">
 
-		    <div id="accordion">
+		    <div id="accordion" class="width2">
 
   <div class="card">
     <div class="card-header">
@@ -73,7 +72,7 @@ function Dashboard() {
 													<div class="flex-grow-1">
 
 														<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-														<div class="h5">1248</div>
+														<div class="h5">0</div>
 													</div>
 												</div>
 											</div>
@@ -86,7 +85,7 @@ function Dashboard() {
 												<div class="d-flex align-items-center">
 													<div class="flex-grow-1">
 														<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-														<div class="h5">243</div>
+														<div class="h5">0</div>
 													</div>
 												</div>
 											</div>
@@ -99,7 +98,7 @@ function Dashboard() {
 												<div class="d-flex align-items-center">
 													<div class="flex-grow-1">
 														<div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
-														<div class="h5">16</div>
+														<div class="h5">0</div>
 													</div>
 												</div>
 											</div>
@@ -112,7 +111,7 @@ function Dashboard() {
 												<div class="d-flex align-items-center">
 													<div class="flex-grow-1">
 														<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-														<div class="h5">989</div>
+														<div class="h5">0</div>
 													</div>
 												</div>
 											</div>
@@ -125,7 +124,7 @@ function Dashboard() {
 												<div class="d-flex align-items-center">
 													<div class="flex-grow-1">
 														<div class="small font-weight-bold text-secondary mb-1">Mean/Average Number of Days for Approval</div>
-														<div class="h5">26</div>
+														<div class="h5">0</div>
 													</div>
 												</div>
 											</div>
@@ -138,7 +137,7 @@ function Dashboard() {
 												<div class="d-flex align-items-center">
 													<div class="flex-grow-1">
 														<div class="small font-weight-bold text-success mb-1">Median Number of Days for Approval</div>
-														<div class="h5">24</div>
+														<div class="h5">0</div>
 													</div>
 												</div>
 											</div>
@@ -151,7 +150,7 @@ function Dashboard() {
 												<div class="d-flex align-items-center">
 													<div class="flex-grow-1">
 														<div class="small font-weight-bold text-info mb-1">Minimum Number of Days for Approval</div>
-														<div class="h5">1</div>
+														<div class="h5">0</div>
 													</div>
 												</div>
 											</div>
@@ -164,7 +163,7 @@ function Dashboard() {
 												<div class="d-flex align-items-center">
 													<div class="flex-grow-1">
 														<div class="small font-weight-bold text-success mb-1">Maximum Number of Days for Approval</div>
-														<div class="h5">263</div>
+														<div class="h5">0</div>
 
 													</div>
 
@@ -352,7 +351,7 @@ function Dashboard() {
 								<div class="card-header">Information related to Building Plan Approval System</div>
 								<div class="row card-body">
 								     <div class="col-md-12">
-									   <div class="container d-flex">
+									   <div class="d-flex">
 
 									  <ul id="tabs" class="nav nav-tabs" role="tablist">
 										<li class="nav-item">
@@ -374,11 +373,11 @@ function Dashboard() {
 										</li>
 
 										<li class="nav-item">
-										  <a id="tab-g" href="#pane-g" class="nav-link" data-toggle="tab" role="tab">Industrial Related</a>
+										  <a id="tab-f" href="#pane-f" class="nav-link" data-toggle="tab" role="tab">Industrial Related</a>
 										</li>
 
 										<li class="nav-item">
-										  <a id="tab-f" href="#pane-f" class="nav-link" data-toggle="tab" role="tab">Other Documents</a>
+										  <a id="tab-g" href="#pane-g" class="nav-link" data-toggle="tab" role="tab">Other Documents</a>
 										</li>
 
 
@@ -387,17 +386,25 @@ function Dashboard() {
 									  <div id="content" class="tab-content" role="tablist">
 										<div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
 
+										<div class="card-header" role="tab" id="heading-A">
+											<h5 class="mb-0">
+											  <a data-toggle="collapse" href="#collapse-A" data-parent="#content" aria-expanded="true" aria-controls="collapse-A">
+													Fee Details
+												  </a>
+											</h5>
+										  </div>
+
 										  <div id="collapse-A" class="collapse show" role="tabpanel" aria-labelledby="heading-A">
 
 											<div class="flex-grow-1 free-1">
 												<div class="small font-weight-bold text-primary mb-1">Fee for Building Permit-New Development
 												<div class="h5 pull-right">
 												<a href="/Deshboard/images/Fee for Building Permit-New Development.pdf" class="tooltip"  target="_blank">
-												<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+												<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 												</div>
 												<div class="h5 pull-right">
 												<a href="/Deshboard/images/Fee for Building Permit-New Development.pdf" class="tooltip">
-												<span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+												<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 												</div>
 										    </div>
 										  </div>
@@ -405,9 +412,9 @@ function Dashboard() {
 										   <div class="flex-grow-1 free-1">
 											 <div class="small font-weight-bold text-primary mb-1">Fee for Building Permit-Alteration
 											   <div class="h5 pull-right"><a href="/Deshboard/images/Fee for Building Permit-Alteration.pdf"  class="tooltip"  target="_blank">
-												<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+												<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 												</div>
-											  <div class="h5 pull-right"><a href="/Deshboard/images/Fee for Building Permit-Alteration.pdf" class="tooltip"><span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+											  <div class="h5 pull-right"><a href="/Deshboard/images/Fee for Building Permit-Alteration.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 											</div>
 										   </div>
 										  </div>
@@ -415,9 +422,9 @@ function Dashboard() {
 										  <div class="flex-grow-1 free-1">
 											 <div class="small font-weight-bold text-primary mb-1">Fee for Building Permit-Revalidation
 											 <div class="h5 pull-right"><a href="/Deshboard/images/Fee for Building Permit-Revalidation.pdf"  class="tooltip"  target="_blank">
-											  <span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+											  <span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 											</div>
-											<div class="h5 pull-right"><a href="/Deshboard/images/Fee for Building Permit-Revalidation.pdf" class="tooltip"><span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+											<div class="h5 pull-right"><a href="/Deshboard/images/Fee for Building Permit-Revalidation.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 											 </div>
 											</div>
 										</div>
@@ -426,14 +433,23 @@ function Dashboard() {
 										</div>
 
 										<div id="pane-B" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-B">
+
+                                        <div class="card-header" role="tab" id="heading-B">
+										<h5 class="mb-0">
+										  <a class="collapsed" data-toggle="collapse" href="#collapse-B" data-parent="#content" aria-expanded="false" aria-controls="collapse-B">
+												Procedures
+											  </a>
+										</h5>
+									  </div>
+
 										  <div id="collapse-B" class="collapse" role="tabpanel" aria-labelledby="heading-B">
 
 										<div class="flex-grow-1 free-1">
 											<div class="small font-weight-bold text-primary mb-1">Stakeholder Registration
 											<div class="h5 pull-right"><a href="/Deshboard/images/Stakeholder Registration.pdf"  class="tooltip"  target="_blank">
-											<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+											<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 											</div>
-											<div class="h5 pull-right"><a href="/Deshboard/images/Stakeholder Registration.pdf" class="tooltip"><span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+											<div class="h5 pull-right"><a href="/Deshboard/images/Stakeholder Registration.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 											</div>
 											</div>
 										</div>
@@ -441,9 +457,9 @@ function Dashboard() {
 										<div class="flex-grow-1 free-1">
 											<div class="small font-weight-bold text-primary mb-1">Building Permit for Other Than Low Risk
 												<div class="h5 pull-right"><a href="/Deshboard/images/Building Permit for Other Than Low Risk.pdf"  class="tooltip"  target="_blank">
-												<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+												<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 												</div>
-												<div class="h5 pull-right"><a href="/Deshboard/images/Building Permit for Other Than Low Risk.pdf" class="tooltip"><span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+												<div class="h5 pull-right"><a href="/Deshboard/images/Building Permit for Other Than Low Risk.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 												</div>
 											</div>
 							           </div>
@@ -451,9 +467,9 @@ function Dashboard() {
 									   <div class="flex-grow-1 free-1">
 										<div class="small font-weight-bold text-primary mb-1">Occupancy Certificate for Low Risk
 											<div class="h5 pull-right"><a href="/Deshboard/images/Occupancy Certificate for Low Risk.pdf"  class="tooltip"  target="_blank">
-											<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+											<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 											</div>
-											<div class="h5 pull-right"><a href="/Deshboard/images/Occupancy Certificate for Low Risk.pdf" class="tooltip"><span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+											<div class="h5 pull-right"><a href="/Deshboard/images/Occupancy Certificate for Low Risk.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 											</div>
 										</div>
 										</div>
@@ -461,9 +477,9 @@ function Dashboard() {
 										<div class="flex-grow-1 free-1">
 											<div class="small font-weight-bold text-primary mb-1">Occupancy Certificate for Other Than Low Risk
 												<div class="h5 pull-right"><a href="/Deshboard/images/Occupancy Certificate for Other Than Low Risk.pdf"  class="tooltip"  target="_blank">
-												<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+												<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 												</div>
-												<div class="h5 pull-right"><a href="/Deshboard/images/Occupancy Certificate for Other Than Low Risk.pdf" class="tooltip"><span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+												<div class="h5 pull-right"><a href="/Deshboard/images/Occupancy Certificate for Other Than Low Risk.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 												</div>
 											</div>
 									    </div>
@@ -473,16 +489,24 @@ function Dashboard() {
 
 										<div id="pane-C" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-C">
 
+										<div class="card-header" role="tab" id="heading-C">
+										<h5 class="mb-0">
+										  <a class="collapsed" data-toggle="collapse" href="#collapse-C" data-parent="#content" aria-expanded="false" aria-controls="collapse-C">
+												List of Documents
+											  </a>
+										</h5>
+									  </div>
+
 										  <div id="collapse-C" class="collapse" role="tabpanel" aria-labelledby="heading-C">
 
 											<div class="flex-grow-1 free-1">
 											<div class="small font-weight-bold text-primary mb-1">List of Documents required for Low-risk building
 											<div class="h5 pull-right"><a href="/Deshboard/images/List of Documents required for Low-risk building.pdf"  class="tooltip"
 											target="_blank">
-											<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+											<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 											</div>
 											<div class="h5 pull-right"><a href="/Deshboard/images/List of Documents required for Low-risk building.pdf" class="tooltip">
-											<span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+											<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 											</div>
 											</div>
 											</div>
@@ -491,10 +515,10 @@ function Dashboard() {
 												<div class="small font-weight-bold text-primary mb-1">List of Documents required for Other than Low-risk building
 												<div class="h5 pull-right"><a href="/Deshboard/images/List of Documents required for Other than Low-risk building.pdf"  class="tooltip"
 												target="_blank">
-												<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+												<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 												</div>
 												<div class="h5 pull-right"><a href="/Deshboard/images/List of Documents required for Other than Low-risk building.pdf" class="tooltip">
-												<span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+												<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 												</div>
 												</div>
 										  </div>
@@ -505,14 +529,22 @@ function Dashboard() {
 
 										<div id="pane-d" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-d">
 
+											<div class="card-header" role="tab" id="heading-d">
+											<h5 class="mb-0">
+											  <a class="collapsed" data-toggle="collapse" href="#collapse-d" data-parent="#content" aria-expanded="false" aria-controls="collapse-d">
+													List of (NOCs)
+												  </a>
+											</h5>
+										  </div>
+
 										  <div id="collapse-d" class="collapse" role="tabpanel" aria-labelledby="heading-d">
 
 											<div class="flex-grow-1 free-1">
 											<div class="small font-weight-bold text-primary mb-1">List of NOC for Low-risk building
 												<div class="h5 pull-right"><a href="/Deshboard/images/List of NOC for Low-risk building.pdf"  class="tooltip"  target="_blank">
-												<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+												<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 												</div>
-												<div class="h5 pull-right"><a href="/Deshboard/images/List of NOC for Low-risk building.pdf" class="tooltip"><span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+												<div class="h5 pull-right"><a href="/Deshboard/images/List of NOC for Low-risk building.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 												</div>
 											</div>
 											</div>
@@ -520,10 +552,10 @@ function Dashboard() {
 											<div class="flex-grow-1 free-1">
 											<div class="small font-weight-bold text-primary mb-1">List of NOC for Other than Low-risk building
 												<div class="h5 pull-right"><a href="/Deshboard/images/List of NOC for Other than Low-risk building.pdf"  class="tooltip"  target="_blank">
-												<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+												<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 												</div>
 
-												<div class="h5 pull-right"><a href="/Deshboard/images/List of NOC for Other than Low-risk building.pdf" class="tooltip"><span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+												<div class="h5 pull-right"><a href="/Deshboard/images/List of NOC for Other than Low-risk building.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 												</div>
 
 											</div>
@@ -533,14 +565,22 @@ function Dashboard() {
 										</div>
 
 										<div id="pane-e" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-e">
-										  <div id="collapse-e" class="collapse" role="tabpanel" aria-labelledby="heading-e">
 
+										 <div class="card-header" role="tab" id="heading-e">
+											<h5 class="mb-0">
+											  <a class="collapsed" data-toggle="collapse" href="#collapse-e" data-parent="#content" aria-expanded="false" aria-controls="collapse-e">
+													Inspection
+												  </a>
+											</h5>
+										  </div>
+
+										  <div id="collapse-e" class="collapse" role="tabpanel" aria-labelledby="heading-e">
 										  <div class="flex-grow-1 free-1">
 											<div class="small font-weight-bold text-primary mb-1">Sample Site Inspection Checklist for Building Plan Approval
 												<div class="h5 pull-right"><a href="/Deshboard/images/Sample Site Inspection Checklist for Building Plan Approval.pdf"  class="tooltip"  target="_blank">
-												<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+												<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 												</div>
-												<div class="h5 pull-right"><a href="/Deshboard/images/Sample Site Inspection Checklist for Building Plan Approval.pdf" class="tooltip"><span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+												<div class="h5 pull-right"><a href="/Deshboard/images/Sample Site Inspection Checklist for Building Plan Approval.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 												</div>
 											</div>
 						                 </div>
@@ -548,28 +588,37 @@ function Dashboard() {
 										<div class="flex-grow-1 free-1">
 										<div class="small font-weight-bold text-primary mb-1">Sample Site Inspection Checklist for Occupancy Application
 										<div class="h5 pull-right"><a href="/Deshboard/images/Sample Site Inspection Checklist for Occupancy Application.pdf"  class="tooltip"  target="_blank">
-										<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+										<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 										</div>
-										<div class="h5 pull-right"><a href="/Deshboard/images/Sample Site Inspection Checklist for Occupancy Application.pdf" class="tooltip"><span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
-										</div>
-
-										  </div>
+										<div class="h5 pull-right"><a href="/Deshboard/images/Sample Site Inspection Checklist for Occupancy Application.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 										</div>
 
 										  </div>
 										</div>
 
+										  </div>
+										</div>
 
-										<div id="pane-g" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-g">
-										  <div id="collapse-g" class="collapse" role="tabpanel" aria-labelledby="heading-g">
+
+										<div id="pane-f" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-f">
+
+										  <div class="card-header" role="tab" id="heading-f">
+											<h5 class="mb-0">
+											  <a class="collapsed" data-toggle="collapse" href="#collapse-f" data-parent="#content" aria-expanded="false" aria-controls="collapse-f">
+													Industrial Related
+												  </a>
+											</h5>
+										  </div>
+
+										  <div id="collapse-f" class="collapse" role="tabpanel" aria-labelledby="heading-f">
 
 											<div class="flex-grow-1 free-1">
 												<div class="small font-weight-bold text-primary mb-1">List of documents - Industrial Occupancy
 													<div class="h5 pull-right"><a href="/Deshboard/images/List of documents - Industrial Occupancy.pdf"  class="tooltip"  target="_blank">
-													<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+													<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 													</div>
 													<div class="h5 pull-right"><a href="/Deshboard/images/List of documents - Industrial Occupancy.pdf" class="tooltip">
-													  <span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+													  <span class="tooltiptext">View</span><imgv src="/Deshboard/images/view.svg" class="fkdl" /></a>
 													</div>
 												  </div>
 											</div>
@@ -577,10 +626,10 @@ function Dashboard() {
 											<div class="flex-grow-1 free-1">
 												<div class="small font-weight-bold text-primary mb-1">Applicable Fee & NOC's For Industrial Occupancies
 													<div class="h5 pull-right"><a href="/Deshboard/images/Applicable Fee & NOC's For Industrial Occupancies.pdf"  class="tooltip"  target="_blank">
-													<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+													<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 													</div>
 													<div class="h5 pull-right"><a href="/Deshboard/images/Applicable Fee & NOC's For Industrial Occupancies.pdf" class="tooltip">
-													  <span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+													  <span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 													</div>
 												  </div>
 											</div>
@@ -589,11 +638,11 @@ function Dashboard() {
 													<div class="small font-weight-bold text-primary mb-1">NOC's For Industrial Occupancies
 
 												   <div class="h5 pull-right"><a href="/Deshboard/images/NOC's For Industrial Occupancies.pdf"  class="tooltip"  target="_blank">
-													<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+													<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 													</div>
 
 													<div class="h5 pull-right"><a href="/Deshboard/images/NOC's For Industrial Occupancies.pdf" class="tooltip"><span class="tooltiptext">View</span>
-													<img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+													<img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 													</div>
 													</div>
 											</div>
@@ -602,16 +651,25 @@ function Dashboard() {
 										</div>
 
 
-										<div id="pane-f" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-f">
-										  <div id="collapse-f" class="collapse" role="tabpanel" aria-labelledby="heading-f">
+										<div id="pane-g" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-g">
+
+										<div class="card-header" role="tab" id="heading-g">
+										<h5 class="mb-0">
+										  <a class="collapsed" data-toggle="collapse" href="#collapse-g" data-parent="#content" aria-expanded="false" aria-controls="collapse-g">
+												Other Documents
+											  </a>
+										</h5>
+									   </div>
+
+										  <div id="collapse-g" class="collapse" role="tabpanel" aria-labelledby="heading-g">
 
 											<div class="flex-grow-1 free-1">
 												<div class="small font-weight-bold text-primary mb-1">Odisha CAF Rules Notification 2016
 													<div class="h5 pull-right"><a href="/Deshboard/images/Odisha CAF Rules Notification 2016.pdf"  class="tooltip"  target="_blank">
-												<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+												<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 												</div>
 												<div class="h5 pull-right"><a href="/Deshboard/images/Odisha CAF Rules Notification 2016.pdf" class="tooltip">
-												  <span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+												  <span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 												</div>
 												  </div>
 												</div>
@@ -620,10 +678,10 @@ function Dashboard() {
 													<div class="small font-weight-bold text-primary mb-1">Odisha Planning and Building Standard Notification 2020
 
 												   <div class="h5 pull-right"><a href="/Deshboard/images/Odisha Planning and Building Standard Notification 2020.pdf"  class="tooltip"  target="_blank">
-													<span class="tooltiptext">Download</span><img src="/Deshboard/images/download.svg" class="fkdl" /></a>
+													<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 													</div>
 
-													<div class="h5 pull-right"><a href="/Deshboard/images/Odisha Planning and Building Standard Notification 2020.pdf" class="tooltip"><span class="tooltiptext">View</span><img src="/Deshboard/images/view.svg" class="fkdl" /></a>
+													<div class="h5 pull-right"><a href="/Deshboard/images/Odisha Planning and Building Standard Notification 2020.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 													</div>
 													</div>
 											</div>
