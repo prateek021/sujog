@@ -14,7 +14,7 @@ function Dashboard() {
                                     <div class="col-auto">
                                         <h1 class="page-header-title">
                                             <div class="page-header-icon"><i data-feather="activity"></i></div>
-                                            Welcome to Online Building Approval System
+                                            Welcome to Online Building Plan Approval
                                         </h1>
 
                                     </div>
@@ -348,7 +348,7 @@ function Dashboard() {
 							</div>
 
 								<div class="col-xl-6 col-md-6 mb-4 card card2">
-								<div class="card-header">Information related to Building Plan Approval System</div>
+								<div class="card-header">Information related to Building Plan Approval</div>
 								<div class="row card-body">
 								     <div class="col-md-12">
 									   <div class="d-flex">

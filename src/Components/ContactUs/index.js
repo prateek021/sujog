@@ -40,7 +40,7 @@ function ContactUs() {
             <div class="info-box">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>www.sujog.odisha.gov.in</p>
+              <p>helpdesk.sujog@odisha.gov.in</p>
             </div>
           </div>
 
