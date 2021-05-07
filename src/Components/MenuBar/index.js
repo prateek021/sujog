@@ -6,7 +6,7 @@ function Menubar() {
         <div className="container">
 
             <div className="logo float-left">
-                <a href="index.html"><img src="assets/img/Sujog.jpg" alt="" className="img-fluid" /></a>
+            <Link to="/home"><img src="assets/img/Sujog.jpg" alt="" className="img-fluid" /></Link>
             </div>
 
             <nav className="nav-menu float-right d-none d-lg-block">
@@ -34,8 +34,20 @@ function Menubar() {
                         </ul>
                     </li>
                     <li><Link to="/contactus">Helpdesk</Link></li>
-                    <li className="login"><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">login</a></li>
+                    {/* <li className="login"><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">login</a></li> */}
+                    <li class="login">
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Log In
+			  </a>
 
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item d-none d-lg-block" href="https://sujog.odisha.gov.in/citizen/user/register">Citizen</a>
+                                <a class="dropdown-item d-none d-lg-block" href="https://sujog.odisha.gov.in/employee/user/login">Department</a>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
 
 

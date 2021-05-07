@@ -1576,7 +1576,7 @@ section {
 .list-aggregate li { border-bottom-color: #e5e5e5 }
 .list-aggregate li a { color:#056db1; }
 .list-aggregate li{height:auto; border-bottom:1px solid #8e73ad;}
-.list-aggregate li p { color:#686666; padding:0px; margin:0px; text-align:justify;  font-size: 12px; line-height:px;1 font-weight: 500; }
+.list-aggregate li p { color:#686666; padding:0px; margin:0px; text-align:justify;  font-size: 12px; line-height:px; font-weight: 500; }
 .list-aggregate li:hover { background-color: rgba(36, 1, 77, 0.1);}
 .buy-policy-2 h3{font-size:15px; text-align:justify; color:#0579c6;}
 .policy-img2{width:75px; height:75px; border-radius:50%; background-color:#0579c6;}
