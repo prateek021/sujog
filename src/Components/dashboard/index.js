@@ -28,7 +28,7 @@ function Dashboard() {
 				<div class="col">
 					<div class="row">
 						<div class="col-xl-6 col-md-6 mb-4 card">
-							<div class="card-header">Public Dashboard <span class="lart1">Last Update: 15.05.2021</span></div>
+							<div class="card-header">Public Dashboard <span class="lart1">Last Update: 29.06.2021</span></div>
 
 							<div class="row card-body">
 
@@ -344,7 +344,7 @@ function Dashboard() {
 								</div>
 
 							</div>
-							<div class="card-header lart1">Information available 1st November 2020 onwards</div>
+							
 						</div>
 
 						<div class="col-xl-6 col-md-6 mb-4 card card2">
