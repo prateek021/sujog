@@ -72,7 +72,7 @@ function Dashboard() {
 																			<div class="flex-grow-1">
 
 																				<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																				<div class="h5">1</div>
+																				<div class="h5">2</div>
 																			</div>
 																		</div>
 																	</div>
