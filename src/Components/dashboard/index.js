@@ -111,7 +111,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																				<div class="h5">0</div>
+																				<div class="h5">1</div>
 																			</div>
 																		</div>
 																	</div>
