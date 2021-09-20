@@ -29,6 +29,7 @@ function Dashboard() {
 					<div class="row">
 						<div class="col-xl-6 col-md-6 mb-4 card">
 
+
 							<div class="card-header">Public Dashboard <span class="lart1">Last Update: 30.07.2021</span></div>
 
 							<div class="row card-body">
@@ -73,7 +74,7 @@ function Dashboard() {
 																			<div class="flex-grow-1">
 
 																				<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																				<div class="h5">1</div>
+																				<div class="h5">2</div>
 																			</div>
 																		</div>
 																	</div>
@@ -112,7 +113,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																				<div class="h5">0</div>
+																				<div class="h5">1</div>
 																			</div>
 																		</div>
 																	</div>
