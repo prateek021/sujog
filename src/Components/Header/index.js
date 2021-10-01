@@ -6,7 +6,7 @@ class Header extends Component {
         return <section id="topbar" className="top-header d-none d-lg-block">
             <div className="container clearfix">
                 <div className="contact-info float-left">
-                    <span><i className="icofont-phone"></i> 1800 120 6833</span>
+                    <span><i className="icofont-phone"></i> 1800 121 6833</span>
                     <span><i className="icofont-envelope"></i><a href="mailto:contact@example.com"> helpdesk.sujog@odisha.gov.in</a></span>
 
                 </div>

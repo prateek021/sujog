@@ -48,7 +48,7 @@ function ContactUs() {
             <div class="info-box ">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>1800 120 6833</p>
+              <p>1800 121 6833</p>
             </div>
           </div>
 

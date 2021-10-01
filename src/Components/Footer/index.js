@@ -34,7 +34,7 @@ function Footer() {
               <ul>
                 <li><i class='bx bx-map'></i> Bhubaneswar </li>
                 <li><i class='bx bx-envelope'></i>helpdesk.sujog@odisha.gov.in </li>
-                <li><i class='bx bx-mobile'></i> 1800 120 6833</li>
+                <li><i class='bx bx-mobile'></i> 1800 121 6833</li>
               </ul>
             </div>
 
