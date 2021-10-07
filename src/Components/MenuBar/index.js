@@ -20,10 +20,11 @@ function Menubar() {
                             {/* <li><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">OBPAS</a></li> */}
                             {/* <li><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">Building Permission Approval</a></li> */}
                             <li><a href="/dashboard" rel="noreferrer">Building Permission Approval</a></li>
-                            <li><Link to="/comingsoon">Public Grievance Redressal</Link></li>
-                            <li><Link to="/comingsoon">Property Tax</Link></li>
-                            <li><Link to="/comingsoon">Water & Sewerage</Link></li>
-                            <li><Link to="/comingsoon">Trade License</Link></li>
+                            <li><Link to="/pgr">Public Grievance Redressal</Link></li>
+                            <li><Link to="/pt">Property Tax</Link></li>
+                            <li><Link to="/wns">Water & Sewerage</Link></li>
+                            <li><Link to="/tl">Trade License</Link></li>
+                            <li><Link to="/mr">Marriage Registration</Link></li>
                         </ul>
                     </li>
                     <li className="drop-down"><Link to="comingsoon">Information</Link>
