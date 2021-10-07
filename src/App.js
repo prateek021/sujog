@@ -15,6 +15,11 @@ import ContactUs from "./Components/ContactUs";
 import ComingSoon from "./Components/ComingSoon";
 import Rti from "./Components/RTI";
 import Dashboard from "./Components/dashboard";
+import Pgr from "./Components/Pgr";
+import MR from "./Components/MR";
+import PT from "./Components/PT";
+import WnS from "./Components/WnS";
+import TL from "./Components/TL";
 function App() {
   return (
     <>
@@ -36,6 +41,11 @@ function App() {
         <Route exact path="/home" component={HomePage} />
         <Route path="/aboutus" component={Aboutus} />
         <Route path="/contactus" component={ContactUs} />
+        <Route path="/pgr" component={Pgr} />
+        <Route path="/mr" component={MR} />
+        <Route path="/pt" component={PT} />
+        <Route path="/wns" component={WnS} />
+        <Route path="/tl" component={TL} />
         <Route path="/comingsoon" component={ComingSoon} />
         <Route path="/rti" component={Rti} />
         <Route path="/dashboard" component={Dashboard} />
