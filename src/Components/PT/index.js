@@ -119,11 +119,11 @@ function PT() {
 										<div className="flex-grow-1 free-1">
 										<div className="small font-weight-bold text-primary mb-1">List of Documents required for adding new property
 
-										<div className="h5 pull-right"><a href="/Pt/List of Documents required for adding new property.pdf"  className="tooltip"
+										<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for adding new property.pdf"  className="tooltip"
 										target="_blank">
 										<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" className="fkdl" /></a>
 										</div>
-										<div className="h5 pull-right"><a href="/Pt/List of Documents required for adding new property.pdf" className="tooltip" target="_blank">
+										<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for adding new property.pdf" className="tooltip" target="_blank">
 										<span className="tooltiptext">View</span><img src="/assets/img/view.svg" className="fkdl" /></a>
 										</div>
 										</div>
@@ -131,11 +131,11 @@ function PT() {
 
 										<div className="flex-grow-1 free-1">
 											<div className="small font-weight-bold text-primary mb-1">List of Documents required for transfer of property
-											<div className="h5 pull-right"><a href="/Pt/List of Documents required for transfer of property.pdf"  className="tooltip"
+											<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for transfer of property.pdf"  className="tooltip"
 											target="_blank">
 											<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" className="fkdl" /></a>
 											</div>
-											<div className="h5 pull-right"><a href="/Pt/List of Documents required for transfer of property.pdf" className="tooltip" target="_blank">
+											<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for transfer of property.pdf" className="tooltip" target="_blank">
 											<span className="tooltiptext">View</span><img src="/assets/img/view.svg" className="fkdl" /></a>
 											</div>
 											</div>
@@ -158,10 +158,10 @@ function PT() {
 
 										<div className="flex-grow-1 free-1">
 										<div className="small font-weight-bold text-primary mb-1">Property Tax User Manual for Citizen
-											<div className="h5 pull-right"><a href="/Pt/SUJOG_PropertyTax_Citizen User Manual.pdf"  className="tooltip"  target="_blank">
+											<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_PropertyTax_Citizen User Manual.pdf"  className="tooltip"  target="_blank">
 											<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" className="fkdl" /></a>
 											</div>
-											<div className="h5 pull-right"><a href="/Pt/SUJOG_PropertyTax_Citizen User Manual.pdf" className="tooltip" target="_blank">
+											<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_PropertyTax_Citizen User Manual.pdf" className="tooltip" target="_blank">
 											<span className="tooltiptext">View</span><img src="/assets/img/view.svg" className="fkdl" /></a>
 											</div>
 										</div>
