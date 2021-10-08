@@ -122,11 +122,11 @@ function TL() {
 
 														<div className="flex-grow-1 free-1">
 															<div className="small font-weight-bold text-primary mb-1">List of Documents required for new trade license
-																<div className="h5 pull-right"><a href="/TL/List of Documents required for new Trade License.pdf" className="tooltip"
+																<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for new Trade License.pdf" className="tooltip"
 																	target="_blank">
 																	<span className="tooltiptext">Download</span><img alt="Trade License" src="/assets/img/download.svg" className="fkdl" /></a>
 																</div>
-																<div className="h5 pull-right"><a href="/TL/List of Documents required for new Trade License.pdf" className="tooltip" target="_blank">
+																<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for new Trade License.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
 																</div>
 															</div>
@@ -134,11 +134,11 @@ function TL() {
 
 														<div className="flex-grow-1 free-1">
 															<div className="small font-weight-bold text-primary mb-1">List of Documents required for temporary trade license
-																<div className="h5 pull-right"><a href="/TL/List of Documents required for Temporary Trade License.pdf" className="tooltip"
+																<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for Temporary Trade License.pdf" className="tooltip"
 																	target="_blank">
 																	<span className="tooltiptext">Download</span><img alt="Trade License" src="/assets/img/download.svg" className="fkdl" /></a>
 																</div>
-																<div className="h5 pull-right"><a href="/TL/List of Documents required for Temporary Trade License.pdf" className="tooltip" target="_blank">
+																<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for Temporary Trade License.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
 																</div>
 															</div>
@@ -159,10 +159,10 @@ function TL() {
 													<div id="collapse-d" className="collapse" role="tabpanel" aria-labelledby="heading-d">
 														<div className="flex-grow-1 free-1">
 															<div className="small font-weight-bold text-primary mb-1">Trade License Tariffs
-																<div className="h5 pull-right"><a href="" className="tooltip" target="_blank">
+																<div className="h5 pull-right"><a style={{"pointerEvents": "none", "cursor": "default"}} href="" className="tooltip" target="_blank">
 																	<span className="tooltiptext">Download</span><img alt="Trade License" src="/assets/img/download.svg" className="fkdl" /></a>
 																</div>
-																<div className="h5 pull-right"><a href="" className="tooltip" target="_blank"><span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
+																<div className="h5 pull-right"><a style={{"pointerEvents": "none", "cursor": "default"}} href="" className="tooltip" target="_blank"><span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
 																</div>
 															</div>
 														</div>
@@ -182,10 +182,10 @@ function TL() {
 													<div id="collapse-e" className="collapse" role="tabpanel" aria-labelledby="heading-e">
 														<div className="flex-grow-1 free-1">
 															<div className="small font-weight-bold text-primary mb-1">Trade License User Manual for Citizen
-																<div className="h5 pull-right"><a href="/TL/SUJOG_Trade License_Citizen User Manual.pdf" className="tooltip" target="_blank">
+																<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_Trade License_Citizen User Manual.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">Download</span><img alt="Trade License" src="/assets/img/download.svg" className="fkdl" /></a>
 																</div>
-																<div className="h5 pull-right"><a href="/TL/SUJOG_Trade License_Citizen User Manual.pdf" className="tooltip" target="_blank">
+																<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_Trade License_Citizen User Manual.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
 																</div>
 															</div>

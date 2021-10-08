@@ -114,11 +114,11 @@ function WnS() {
 
 														<div class="flex-grow-1 free-1">
 															<div class="small font-weight-bold text-primary mb-1">List of Documents required for adding new Connection
-																<div class="h5 pull-right"><a href="/WnS/List of Documents required for adding new water or sewerage connection.pdf" class="tooltip"
+																<div class="h5 pull-right"><a href="/Deshboard/images/List of Documents required for adding new water or sewerage connection.pdf" class="tooltip"
 																	target="_blank">
 																	<span class="tooltiptext">Download</span><img alt="Water & Sewerage" src="/assets/img/download.svg" class="fkdl" /></a>
 																</div>
-																<div class="h5 pull-right"><a href="/WnS/List of Documents required for adding new water or sewerage connection.pdf" class="tooltip" target="_blank">
+																<div class="h5 pull-right"><a href="/Deshboard/images/List of Documents required for adding new water or sewerage connection.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">View</span><img alt="Water & Sewerage" src="/assets/img/view.svg" class="fkdl" /></a>
 																</div>
 															</div>
@@ -126,11 +126,11 @@ function WnS() {
 
 														<div class="flex-grow-1 free-1">
 															<div class="small font-weight-bold text-primary mb-1">List of Documents required for Ownership transfer of Connection.
-																<div class="h5 pull-right"><a href="/WnS/List of Documents required for transfer of Water connection.pdf" class="tooltip"
+																<div class="h5 pull-right"><a href="/Deshboard/images/List of Documents required for transfer of Water connection.pdf" class="tooltip"
 																	target="_blank">
 																	<span class="tooltiptext">Download</span><img alt="Water & Sewerage" src="/assets/img/download.svg" class="fkdl" /></a>
 																</div>
-																<div class="h5 pull-right"><a href="/WnS/List of Documents required for transfer of Water connection.pdf" class="tooltip" target="_blank">
+																<div class="h5 pull-right"><a href="/Deshboard/images/List of Documents required for transfer of Water connection.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">View</span><img alt="Water & Sewerage" src="/assets/img/view.svg" class="fkdl" /></a>
 																</div>
 															</div>
@@ -157,10 +157,10 @@ function WnS() {
 														<div class="flex-grow-1 free-1">
 															<div class="small font-weight-bold text-primary mb-1">Water & Sewerage User Manual for Citizen
 
-																<div class="h5 pull-right"><a href="/WnS/SUJOG_WS_Citizen User Manual.pdf" class="tooltip" target="_blank">
+																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_WS_Citizen User Manual.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">Download</span><img alt="Water & Sewerage" src="/assets/img/download.svg" class="fkdl" /></a>
 																</div>
-																<div class="h5 pull-right"><a href="/WnS/SUJOG_WS_Citizen User Manual.pdf" class="tooltip" target="_blank">
+																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_WS_Citizen User Manual.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">View</span><img alt="Water & Sewerage" src="/assets/img/view.svg" class="fkdl" /></a>
 																</div>
 															</div>

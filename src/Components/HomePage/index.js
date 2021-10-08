@@ -78,56 +78,65 @@ class HomePage extends React.Component {
             <main id="main">
 
 
-                <div id="about" className="about about-pading">
-                    <div className="container">
+            <div id="about" class="about about-pading">
+      <div class="container">
 
-                        <div className="row no-gutters">
+        <div class="row no-gutters">
 
-                            <div class="col-lg-5 video-box" data-aos="fade-up" data-aos-delay="100">
-                                <img src="assets/img/mobile.png" class="img-fluid" alt="" />
-                            </div>
+          <div class="col-lg-5 col-md-6 video-box" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/mobile.png" class="img-fluid" alt="" />
+          </div>
 
-                            <div className="col-lg-7 d-flex flex-column">
-                                <div className="section-title" data-aos="fade-up" data-aos-delay="100">
-                                    <h2>ABOUT SUJOG</h2>
-                                    <p>H&UDD has launched ‘SUJOG - Sustainable Urban Services in a Jiffy by Odisha Government’ to roll out e-governance
-                                    services across the ULBs in the state. SUJOG will make urban governance transparent, technology enabled, time-bound
-                                    through teamwork, thereby leading to transformation in the lives of citizens in all Urban Local Bodies of the state.
+          <div class="col-lg-7 col-md-6 d-flex flex-column">
+            <div class="section-title" data-aos="fade-up" data-aos-delay="100">
+              <h2>ABOUT SUJOG</h2>
+              <p>H&UDD has launched ‘SUJOG - Sustainable Urban Services in a Jiffy by Odisha Government’ to roll out e-governance
+			  services across the ULBs in the state. SUJOG will make urban governance transparent, technology enabled, time-bound
+			  through teamwork, thereby leading to transformation in the lives of citizens in all Urban Local Bodies of the state.
              </p>
-                                </div>
+            </div>
+          <a class="btn btn-primary width1" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Read more + </a>
+          </div>
 
-                                <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                                    <div className="icon"><img src="assets/img/OBJECTIVE.png" class="img-fluid" alt="" /></div>
-                                    <h4 className="title"><a href="about.html">Vision </a></h4>
-                                    <p className="description">To keep citizens at the centre of the Digital Transformation of urban services.</p>
-                                </div>
-                            </div>
+		  <div class="col-lg-12 col-md-12 text1">
+		    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+			  <div class="collapse" id="collapseExample">
+                <div class="card card-body">
 
-                            <div className="col-lg-12 col-md-12 text1">
-                                <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                                    <div className="icon"><img src="assets/img/vision.png" class="img-fluid" alt="" /></div>
-                                    <h4 className="title"><a href="">Objective</a></h4>
-                                    <p className="description">The broad objectives of the project include: <br />
-                                        <strong>a.</strong> Provide enhanced quality of urban services to citizens through online / single window service delivery channel
-				and ensure accessible, convenient, transparent and timely delivery of services. <br />
-                                        <strong>b.</strong> Minimize the number of visits required by the citizens to the ULBs. <br />
-                                        <strong>c.</strong> Achieve internal efficiency & effectiveness of the ULB by <br />
-                                        <i className="bx bx-wifi-0"></i> Automating and optimizing their back-office processes, which helps them, focus on their core functions and responsibilities
-				by freeing them from routine operations. <br />
-                                        <i className="bx bx-wifi-0"></i> Integrating the departments/functions within ULB for better information flow and transparency. <br /> <br />
-                                        <strong>d. </strong> Integrate with the existing software in place at H&UDD/ULB/Other urban parastatals.<br />
-                                        <strong>e. </strong> Facilitate secure, instantaneous and online payment options for the taxes and statutory fees associated with services.<br />
-                                        <strong>f. </strong> Reduce administrative burden and be a cost-effective service delivery channel for ULBs.
-
-				</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
+				<div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                 <div class="icon"><img src="assets/img/OBJECTIVE.png" class="img-fluid" alt="" /></div>
+                 <h4 class="title"><a href="about.html">Vision </a></h4>
+                  <p class="description">To keep citizens at the centre of the Digital Transformation of urban services.</p>
                 </div>
+
+				<div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+					<div class="icon"><img src="assets/img/vision.png" class="img-fluid" alt="" /></div>
+					<h4 class="title"><a href="">Objective</a></h4>
+					<p class="description">The broad objectives of the project include: <br></br>
+					<strong>a.</strong> Provide enhanced quality of urban services to citizens through online / single window service delivery channel
+					and ensure accessible, convenient, transparent and timely delivery of services. <br></br>
+					<strong>b.</strong> Minimize the number of visits required by the citizens to the ULBs. <br></br>
+					<strong>c.</strong> Achieve internal efficiency & effectiveness of the ULB by <br></br>
+					<i class="bx bx-wifi-0"></i> Automating and optimizing their back-office processes, which helps them, focus on their core functions and responsibilities
+					by freeing them from routine operations. <br></br>
+					<i class="bx bx-wifi-0"></i> Integrating the departments/functions within ULB for better information flow and transparency. <br></br>
+					<strong>d. </strong> Integrate with the existing software in place at H&UDD/ULB/Other urban parastatals.<br></br>
+					<strong>e. </strong> Facilitate secure, instantaneous and online payment options for the taxes and statutory fees associated with services.<br></br>
+					<strong>f. </strong> Reduce administrative burden and be a cost-effective service delivery channel for ULBs.
+					</p>
+				</div>
+			 </div>
+			 </div>
+            </div>
+		  </div>
+
+		  </div>
+
+        </div>
+
+      </div>
+
 
 
                 <section className="counts section-bg2">
@@ -154,7 +163,7 @@ class HomePage extends React.Component {
                             <div className="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
                                 <div className="count-box">
                                     <img src="assets/img/servic-2.png" alt="" />
-                                    <div className="servic-right"><h4><Link to="comingsoon">Public Grievance Redressal</Link></h4>
+                                    <div className="servic-right"><h4><Link to="pgr">Public Grievance Redressal</Link></h4>
                                         <p>PGR system is an application in which citizens can lodge complaints and track the status of redressal mechanism.
                                         The Citizen or Citizen Service Representative (CSR) on behalf of citizens can lodge civic works and miscellaneous
                                         griverance elated complaints in the PGR system.
@@ -166,7 +175,7 @@ class HomePage extends React.Component {
                             <div className="col-lg-6 col-md-6 content-item" data-aos="fade-up">
                                 <div className="count-box">
                                     <img src="assets/img/servic-3.png" alt="" />
-                                    <div className="servic-right"><h4><Link to="comingsoon">Trade License</Link></h4>
+                                    <div className="servic-right"><h4><Link to="tl">Trade License</Link></h4>
                                         <p>The Trade License System provides a digital interface, allowing citizens to apply for the Trade License and subsequently make
                                         the payment online. Traders can apply for new licenses, renewals, amendments, and supplemental licenses. It streamlines and
                                         automates business licensing processes and helps a business to be set up quickly.
@@ -178,7 +187,7 @@ class HomePage extends React.Component {
                             <div className="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
                                 <div className="count-box">
                                     <img src="assets/img/servic-4.png" alt="" />
-                                    <div className="servic-right"><h4><Link to="comingsoon">Property Tax </Link></h4>
+                                    <div className="servic-right"><h4><Link to="pt">Property Tax </Link></h4>
                                         <p>The Property Tax system  provides a digital interface to make property assessments, pay property tax, generate
                                         payment receipts and monitor tax collection. It can be used by the citizens, Urban Local Body (ULB) counter and field
                                         employees and ULB Administrators to accomplish
@@ -192,7 +201,7 @@ class HomePage extends React.Component {
                             <div className="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
                                 <div className="count-box">
                                     <img src="assets/img/water.png" alt="" />
-                                    <div className="servic-right"><h4><Link to="comingsoon">Water & Sewerage</Link></h4>
+                                    <div className="servic-right"><h4><Link to="wns">Water & Sewerage</Link></h4>
                                         <p>The Water and Sewerage (W&S) system provides a digital interface to apply for water and sewerage connections,
                                         pay the water and sewerage charges for connection(s). It can be used by the citizens, Urban Local Body (ULB) counter
                                         employees and field employees, and ULB Administrators,
@@ -206,9 +215,9 @@ class HomePage extends React.Component {
                             <div className="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
                                 <div className="count-box">
                                     <img src="assets/img/finance.png" alt="" />
-                                    <div className="servic-right"><h4><Link to="comingsoon">Finance Budget & Account</Link></h4>
-                                        <p>Financial & Accounts includes acquiring funds for the ULB, managing funds within the ULBs and planning for the expenditure of
-                                        funds on various assets. It ensures efficient financial management and financial control necessary to support all activities.
+                                    <div className="servic-right"><h4><Link to="mr">Marriage Registration</Link></h4>
+                                        <p>The Marriage registration Module allows the citizens of Odisha state to apply for a marriage registration certificate
+				from any municipality through a website or a mobile application remotely.
 
 				</p>
                                     </div>
