@@ -168,10 +168,10 @@ function WnS() {
 
 														<div class="flex-grow-1 free-1">
 															<div class="small font-weight-bold text-primary mb-1">SUJOG FAQ document
-																<div class="h5 pull-right"><a style={{"pointerEvents": "none", "cursor": "default"}} href="" class="tooltip" target="_blank">
+																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_FAQ Document.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">Download</span><img alt="Water & Sewerage" src="/assets/img/download.svg" class="fkdl" /></a>
 																</div>
-																<div class="h5 pull-right"><a style={{"pointerEvents": "none", "cursor": "default"}} href="" class="tooltip" target="_blank"><span class="tooltiptext">View</span><img alt="Water & Sewerage" src="/assets/img/view.svg" class="fkdl" /></a>
+																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_FAQ Document.pdf" class="tooltip" target="_blank"><span class="tooltiptext">View</span><img alt="Water & Sewerage" src="/assets/img/view.svg" class="fkdl" /></a>
 																</div>
 
 															</div>
