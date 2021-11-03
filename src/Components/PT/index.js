@@ -159,20 +159,20 @@ function PT() {
 										<div className="flex-grow-1 free-1">
 										<div className="small font-weight-bold text-primary mb-1">Property Tax User Manual for Citizen
 											<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_PropertyTax_Citizen User Manual.pdf"  className="tooltip"  target="_blank">
-											<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" className="fkdl" /></a>
+											<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt="" className="fkdl" /></a>
 											</div>
 											<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_PropertyTax_Citizen User Manual.pdf" className="tooltip" target="_blank">
-											<span className="tooltiptext">View</span><img src="/assets/img/view.svg" className="fkdl" /></a>
+											<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt="" className="fkdl" /></a>
 											</div>
 										</div>
 										</div>
 
 										<div className="flex-grow-1 free-1">
 										<div className="small font-weight-bold text-primary mb-1">SUJOG FAQ document
-											<div className="h5 pull-right"><a style={{"pointerEvents": "none", "cursor": "default"}} href=""  className="tooltip"  target="_blank">
-											<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" className="fkdl" /></a>
+											<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_FAQ Document.pdf"  className="tooltip"  target="_blank">
+											<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt="" className="fkdl" /></a>
 											</div>
-											<div className="h5 pull-right"><a style={{"pointerEvents": "none", "cursor": "default"}} href="" className="tooltip" target="_blank"><span className="tooltiptext">View</span><img src="/assets/img/view.svg" className="fkdl" /></a>
+											<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_FAQ Document.pdf" className="tooltip" target="_blank"><span className="tooltiptext">View</span><img src="/assets/img/view.svg" className="fkdl" /></a>
 											</div>
 
 										</div>
