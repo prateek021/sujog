@@ -46,6 +46,7 @@ function Menubar() {
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item d-none d-lg-block" href="https://sujog.odisha.gov.in/citizen/user/register">Citizen</a>
                                 <a class="dropdown-item d-none d-lg-block" href="https://sujog.odisha.gov.in/employee/user/login">Department</a>
+                                <a class="dropdown-item d-none d-lg-block" href="https://sujog.odisha.gov.in/digit-ui/citizen/login">others</a>
                             </div>
                         </div>
                     </li>
