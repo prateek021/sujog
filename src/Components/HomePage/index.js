@@ -48,19 +48,19 @@ class HomePage extends React.Component {
                             <div className="carousel-inner" role="listbox">
 
 
-                                <div className="carousel-item active" style={{ backgroundImage: "url('assets/img/slide/slide-2.jpg')" }} >
+                                <div className="carousel-item active" /*style={{ backgroundImage: "url('assets/img/slide/slide-2.jpg')" }}*/ >
                                     <div className="carousel-container">
-                                        <div className="carousel-content container">
-
+                                        <div className="carousel-content container" style={{color: "red", fontSize: "30px", fontWeight: "bold"}}>
+                                            Sujog Portal services are temporarily unavailable due to scheduled maintenance !
                                         </div>
                                     </div>
                                 </div>
 
 
-                                <div className="carousel-item" style={{ backgroundImage: "url('assets/img/slide/slide-3.jpg')" }}>
+                                <div className="carousel-item" /*style={{ backgroundImage: "url('assets/img/slide/slide-3.jpg')" }}*/ >
                                     <div className="carousel-container">
-                                        <div className="carousel-content container">
-
+                                        <div className="carousel-content container" style={{color: "red", fontSize: "30px", fontWeight: "bold"}} >
+                                        Sujog Portal services are temporarily unavailable due to scheduled maintenance !
                                         </div>
                                     </div>
                                 </div>
