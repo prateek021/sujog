@@ -48,19 +48,19 @@ class HomePage extends React.Component {
                             <div className="carousel-inner" role="listbox">
 
 
-                                <div className="carousel-item active" /*style={{ backgroundImage: "url('assets/img/slide/slide-2.jpg')" }}*/ >
+                                <div className="carousel-item active" style={{ backgroundImage: "url('assets/img/slide/slide-2.jpg')" }} >
                                     <div className="carousel-container">
-                                        <div className="carousel-content container" style={{color: "red", fontSize: "30px", fontWeight: "bold"}}>
-                                            Sujog Portal services are temporarily unavailable due to scheduled maintenance !
+                                        <div className="carousel-content container" >
+                                           
                                         </div>
                                     </div>
                                 </div>
 
 
-                                <div className="carousel-item" /*style={{ backgroundImage: "url('assets/img/slide/slide-3.jpg')" }}*/ >
+                                <div className="carousel-item" style={{ backgroundImage: "url('assets/img/slide/slide-3.jpg')" }} >
                                     <div className="carousel-container">
-                                        <div className="carousel-content container" style={{color: "red", fontSize: "30px", fontWeight: "bold"}} >
-                                        Sujog Portal services are temporarily unavailable due to scheduled maintenance !
+                                        <div className="carousel-content container">
+                                        
                                         </div>
                                     </div>
                                 </div>
@@ -151,7 +151,7 @@ class HomePage extends React.Component {
                             <div className="col-lg-6 col-md-6 content-item" data-aos="fade-up">
                                 <div className="count-box">
                                     <img src="assets/img/servic-1.png" alt="" />
-                                    <div className="servic-right"><h4><a href="/dashboard" rel="noreferrer">Building Permission Approval</a></h4>
+                                    <div className="servic-right"><h4><a href="/obpas-dashboard" rel="noreferrer">Building Permission Approval</a></h4>
                                         <p>Online Building Permission System (OBPS) envisages complete automation of all processes related to building plan approval.
                                         All the processes and steps including calculation of fee, payment of fee, receipt of approval for the permission and certificates,
                                         etc. would be delivered online through an integrated one stop solution.

@@ -19,7 +19,7 @@ function Menubar() {
                         <ul>
                             {/* <li><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">OBPAS</a></li> */}
                             {/* <li><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">Building Permission Approval</a></li> */}
-                            <li><a href="/dashboard" rel="noreferrer">Building Permission Approval</a></li>
+                            <li><a href="/obpas-dashboard" rel="noreferrer">Building Permission Approval</a></li>
                             <li><Link to="/pgr">Public Grievance Redressal</Link></li>
                             <li><Link to="/pt">Property Tax</Link></li>
                             <li><Link to="/wns">Water & Sewerage</Link></li>
