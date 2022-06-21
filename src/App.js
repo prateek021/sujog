@@ -48,7 +48,7 @@ function App() {
         <Route path="/tl" component={TL} />
         <Route path="/comingsoon" component={ComingSoon} />
         <Route path="/rti" component={Rti} />
-        <Route path="/dashboard" component={Dashboard} />
+        <Route path="/obpas-dashboard" component={Dashboard} />
       </Switch>
       <Footer />
     </>
