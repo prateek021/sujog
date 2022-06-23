@@ -357,33 +357,33 @@ function Dashboard() {
 
 										<ul id="tabs" class="nav nav-tabs" role="tablist">
 											<li class="nav-item">
-												<a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab">Fee Details</a>
+												<a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab">OBPAS Training Videos</a>
 											</li>
 											<li class="nav-item">
-												<a id="tab-B" href="#pane-B" class="nav-link" data-toggle="tab" role="tab">Procedures</a>
+												<a id="tab-B" href="#pane-B" class="nav-link" data-toggle="tab" role="tab">Drawing Manual</a>
 											</li>
 											<li class="nav-item">
-												<a id="tab-C" href="#pane-C" class="nav-link" data-toggle="tab" role="tab">List of Documents</a>
-											</li>
-
-											<li class="nav-item">
-												<a id="tab-d" href="#pane-d" class="nav-link" data-toggle="tab" role="tab">List of (NOCs) </a>
+												<a id="tab-C" href="#pane-C" class="nav-link" data-toggle="tab" role="tab">Drawing Template</a>
 											</li>
 
 											<li class="nav-item">
-												<a id="tab-e" href="#pane-e" class="nav-link" data-toggle="tab" role="tab">Inspection</a>
+												<a id="tab-d" href="#pane-d" class="nav-link" data-toggle="tab" role="tab">Project Risk Criterias </a>
 											</li>
 
 											<li class="nav-item">
-												<a id="tab-f" href="#pane-f" class="nav-link" data-toggle="tab" role="tab">Industrial Related</a>
+												<a id="tab-e" href="#pane-e" class="nav-link" data-toggle="tab" role="tab">Reference Files</a>
 											</li>
 
 											<li class="nav-item">
-												<a id="tab-g" href="#pane-g" class="nav-link" data-toggle="tab" role="tab">Other Documents</a>
+												<a id="tab-f" href="#pane-f" class="nav-link" data-toggle="tab" role="tab">Practice Files</a>
 											</li>
 
 											<li class="nav-item">
-												<a id="tab-h" href="#pane-h" class="nav-link" data-toggle="tab" role="tab">Manuals</a>
+												<a id="tab-g" href="#pane-g" class="nav-link" data-toggle="tab" role="tab">User Manuals</a>
+											</li>
+
+											<li class="nav-item">
+												<a id="tab-h" href="#pane-h" class="nav-link" data-toggle="tab" role="tab">NOC list</a>
 											</li>
 
 
@@ -395,7 +395,7 @@ function Dashboard() {
 												<div class="card-header" role="tab" id="heading-A">
 													<h5 class="mb-0">
 														<a data-toggle="collapse" href="#collapse-A" data-parent="#content" aria-expanded="true" aria-controls="collapse-A">
-															Fee Details
+														OBPAS Training Videos
 												  </a>
 													</h5>
 												</div>
@@ -403,37 +403,16 @@ function Dashboard() {
 												<div id="collapse-A" class="collapse show" role="tabpanel" aria-labelledby="heading-A">
 
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Fee for Building Permit-New Development
-												<div class="h5 pull-right">
-																<a href="/Deshboard/images/Fee for Building Permit-New Development.pdf" class="tooltip" target="_blank">
-																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
+														<div class="small font-weight-bold text-primary mb-1">
+															<div class=" pull-right">
+																<a href="https://www.youtube.com/channel/UCMF4tn_dSwgRuiCuPsvEosg" class="tooltip" target="_blank">
+																	Go to Training Videos</a>
 															</div>
-															<div class="h5 pull-right">
-																<a href="/Deshboard/images/Fee for Building Permit-New Development.pdf" class="tooltip">
-																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
-															</div>
+															
 														</div>
 													</div>
 
-													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Fee for Building Permit-Alteration
-											   <div class="h5 pull-right"><a href="/Deshboard/images/Fee for Building Permit-Alteration.pdf" class="tooltip" target="_blank">
-																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
-															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Fee for Building Permit-Alteration.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
-															</div>
-														</div>
-													</div>
-
-													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Fee for Building Permit-Revalidation
-											 <div class="h5 pull-right"><a href="/Deshboard/images/Fee for Building Permit-Revalidation.pdf" class="tooltip" target="_blank">
-																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
-															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Fee for Building Permit-Revalidation.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
-															</div>
-														</div>
-													</div>
+													
 
 												</div>
 											</div>
@@ -443,7 +422,7 @@ function Dashboard() {
 												<div class="card-header" role="tab" id="heading-B">
 													<h5 class="mb-0">
 														<a class="collapsed" data-toggle="collapse" href="#collapse-B" data-parent="#content" aria-expanded="false" aria-controls="collapse-B">
-															Procedures
+															Drawing Manual
 											  </a>
 													</h5>
 												</div>
@@ -451,44 +430,16 @@ function Dashboard() {
 												<div id="collapse-B" class="collapse" role="tabpanel" aria-labelledby="heading-B">
 
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Stakeholder Registration
-											<div class="h5 pull-right"><a href="/Deshboard/images/Stakeholder Registration.pdf" class="tooltip" target="_blank">
+														<div class="small font-weight-bold text-primary mb-1">Drawing Manual_Odisha OBPS
+											<div class="h5 pull-right"><a href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.1.pdf" class="tooltip" target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Stakeholder Registration.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
+															<div class="h5 pull-right"><a href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.1.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
 													</div>
 
-													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Building Permit for Other Than Low Risk
-												<div class="h5 pull-right"><a href="/Deshboard/images/Building Permit for Other Than Low Risk.pdf" class="tooltip" target="_blank">
-																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
-															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Building Permit for Other Than Low Risk.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
-															</div>
-														</div>
-													</div>
-
-													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Occupancy Certificate for Low Risk
-											<div class="h5 pull-right"><a href="/Deshboard/images/Occupancy Certificate for Low Risk.pdf" class="tooltip" target="_blank">
-																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
-															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Occupancy Certificate for Low Risk.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
-															</div>
-														</div>
-													</div>
-
-													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Occupancy Certificate for Other Than Low Risk
-												<div class="h5 pull-right"><a href="/Deshboard/images/Occupancy Certificate for Other Than Low Risk.pdf" class="tooltip" target="_blank">
-																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
-															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Occupancy Certificate for Other Than Low Risk.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
-															</div>
-														</div>
-													</div>
+													
 
 												</div>
 											</div>
@@ -498,7 +449,7 @@ function Dashboard() {
 												<div class="card-header" role="tab" id="heading-C">
 													<h5 class="mb-0">
 														<a class="collapsed" data-toggle="collapse" href="#collapse-C" data-parent="#content" aria-expanded="false" aria-controls="collapse-C">
-															List of Documents
+														Drawing Template
 											  </a>
 													</h5>
 												</div>
@@ -506,24 +457,24 @@ function Dashboard() {
 												<div id="collapse-C" class="collapse" role="tabpanel" aria-labelledby="heading-C">
 
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">List of Documents required for Low-risk building
-											<div class="h5 pull-right"><a href="/Deshboard/images/List of Documents required for Low-risk building.pdf" class="tooltip"
+														<div class="small font-weight-bold text-primary mb-1">Odisha OBPS Drawing Template(DWG)
+											<div class="h5 pull-right"><a href="/Deshboard/images/Odisha OBPS Drawing Template_v1.1.dwg" class="tooltip"
 																target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/List of Documents required for Low-risk building.pdf" class="tooltip">
+															<div class="h5 pull-right"><a href="/Deshboard/images/Odisha OBPS Drawing Template_v1.1.dwg" class="tooltip">
 																<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
 													</div>
 
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">List of Documents required for Other than Low-risk building
-												<div class="h5 pull-right"><a href="/Deshboard/images/List of Documents required for Other than Low-risk building.pdf" class="tooltip"
+														<div class="small font-weight-bold text-primary mb-1">Odisha OBPS Drawing Template(DXF)
+												<div class="h5 pull-right"><a href="/Deshboard/images/Odisha OBPS Drawing Template_v1.1.dxf" class="tooltip"
 																target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/List of Documents required for Other than Low-risk building.pdf" class="tooltip">
+															<div class="h5 pull-right"><a href="/Deshboard/images/Odisha OBPS Drawing Template_v1.1.dxf" class="tooltip">
 																<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
@@ -538,7 +489,7 @@ function Dashboard() {
 												<div class="card-header" role="tab" id="heading-d">
 													<h5 class="mb-0">
 														<a class="collapsed" data-toggle="collapse" href="#collapse-d" data-parent="#content" aria-expanded="false" aria-controls="collapse-d">
-															List of (NOCs)
+														Project Risk Criterias
 												  </a>
 													</h5>
 												</div>
@@ -546,26 +497,16 @@ function Dashboard() {
 												<div id="collapse-d" class="collapse" role="tabpanel" aria-labelledby="heading-d">
 
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">List of NOC for Low-risk building
-												<div class="h5 pull-right"><a href="/Deshboard/images/List of NOC for Low-risk building.pdf" class="tooltip" target="_blank">
+														<div class="small font-weight-bold text-primary mb-1">Low & Other Than Low Risk Criterias
+												<div class="h5 pull-right"><a href="/Deshboard/images/Low & Other Than Low Risk Criterias.pdf" class="tooltip" target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/List of NOC for Low-risk building.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
+															<div class="h5 pull-right"><a href="/Deshboard/images/Low & Other Than Low Risk Criterias.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
 													</div>
 
-													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">List of NOC for Other than Low-risk building
-												<div class="h5 pull-right"><a href="/Deshboard/images/List of NOC for Other than Low-risk building.pdf" class="tooltip" target="_blank">
-																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
-															</div>
-
-															<div class="h5 pull-right"><a href="/Deshboard/images/List of NOC for Other than Low-risk building.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
-															</div>
-
-														</div>
-													</div>
+													
 
 												</div>
 											</div>
@@ -575,28 +516,72 @@ function Dashboard() {
 												<div class="card-header" role="tab" id="heading-e">
 													<h5 class="mb-0">
 														<a class="collapsed" data-toggle="collapse" href="#collapse-e" data-parent="#content" aria-expanded="false" aria-controls="collapse-e">
-															Inspection
+														Reference Files
 												  </a>
 													</h5>
 												</div>
 
 												<div id="collapse-e" class="collapse" role="tabpanel" aria-labelledby="heading-e">
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Sample Site Inspection Checklist for Building Plan Approval
-												<div class="h5 pull-right"><a href="/Deshboard/images/Sample Site Inspection Checklist for Building Plan Approval.pdf" class="tooltip" target="_blank">
+														<div class="small font-weight-bold text-primary mb-1">Apartment & Housing Projects(DWG)
+												<div class="h5 pull-right"><a href="/Deshboard/images/OBPS Reference File - Apartment & Housing Projects.dwg" class="tooltip" target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Sample Site Inspection Checklist for Building Plan Approval.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
+															<div class="h5 pull-right"><a href="/Deshboard/images/OBPS Reference File - Apartment & Housing Projects.dwg" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
 													</div>
 
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Sample Site Inspection Checklist for Occupancy Application
-										<div class="h5 pull-right"><a href="/Deshboard/images/Sample Site Inspection Checklist for Occupancy Application.pdf" class="tooltip" target="_blank">
+														<div class="small font-weight-bold text-primary mb-1">Apartment & Housing Projects(DXF)
+										<div class="h5 pull-right"><a href="/Deshboard/images/OBPS Reference File - Apartment & Housing Projects.dxf" class="tooltip" target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Sample Site Inspection Checklist for Occupancy Application.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
+															<div class="h5 pull-right"><a href="/Deshboard/images/OBPS Reference File - Apartment & Housing Projects.dxf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">Commercial(DWG)
+										<div class="h5 pull-right"><a href="/Deshboard/images/OBPS Reference File - Commercial.dwg" class="tooltip" target="_blank">
+																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
+															</div>
+															<div class="h5 pull-right"><a href="/Deshboard/images/OBPS Reference File - Commercial.dwg" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">Commercial(DXF)
+										<div class="h5 pull-right"><a href="/Deshboard/images/OBPS Reference File - Commercial.dxf" class="tooltip" target="_blank">
+																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
+															</div>
+															<div class="h5 pull-right"><a href="/Deshboard/images/OBPS Reference File - Commercial.dxf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">Residential Detached(DWG)
+										<div class="h5 pull-right"><a href="/Deshboard/images/OBPS Reference File - Residential Detached.dwg" class="tooltip" target="_blank">
+																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
+															</div>
+															<div class="h5 pull-right"><a href="/Deshboard/images/OBPS Reference File - Residential Detached.dwg" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">Residential Detached(DXF)
+										<div class="h5 pull-right"><a href="/Deshboard/images/OBPS Reference File - Residential Detached.dxf" class="tooltip" target="_blank">
+																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
+															</div>
+															<div class="h5 pull-right"><a href="/Deshboard/images/OBPS Reference File - Residential Detached.dxf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 
 														</div>
@@ -611,7 +596,7 @@ function Dashboard() {
 												<div class="card-header" role="tab" id="heading-f">
 													<h5 class="mb-0">
 														<a class="collapsed" data-toggle="collapse" href="#collapse-f" data-parent="#content" aria-expanded="false" aria-controls="collapse-f">
-															Industrial Related
+														Practice Files
 												  </a>
 													</h5>
 												</div>
@@ -619,35 +604,35 @@ function Dashboard() {
 												<div id="collapse-f" class="collapse" role="tabpanel" aria-labelledby="heading-f">
 
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">List of documents - Industrial Occupancy
-													<div class="h5 pull-right"><a href="/Deshboard/images/List of documents - Industrial Occupancy.pdf" class="tooltip" target="_blank">
+														<div class="small font-weight-bold text-primary mb-1">Apartment Bldgs & Housing Projects
+													<div class="h5 pull-right"><a href="/Deshboard/images/Apartment Bldgs & Housing Projects - Practice File.dxf" class="tooltip" target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/List of documents - Industrial Occupancy.pdf" class="tooltip">
+															<div class="h5 pull-right"><a href="/Deshboard/images/Apartment Bldgs & Housing Projects - Practice File.dxf" class="tooltip">
 																<span class="tooltiptext">View</span><imgv src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
 													</div>
 
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Applicable Fee & NOC's For Industrial Occupancies
-													<div class="h5 pull-right"><a href="/Deshboard/images/Applicable Fee & NOC's For Industrial Occupancies.pdf" class="tooltip" target="_blank">
+														<div class="small font-weight-bold text-primary mb-1">Commercial Drawing
+													<div class="h5 pull-right"><a href="/Deshboard/images/Commercial Drawing - Practice File.dxf" class="tooltip" target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Applicable Fee & NOC's For Industrial Occupancies.pdf" class="tooltip">
+															<div class="h5 pull-right"><a href="/Deshboard/images/Commercial Drawing - Practice File.dxf" class="tooltip">
 																<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
 													</div>
 
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">NOC's For Industrial Occupancies
+														<div class="small font-weight-bold text-primary mb-1">Residential Detached
 
-												   <div class="h5 pull-right"><a href="/Deshboard/images/NOC's For Industrial Occupancies.pdf" class="tooltip" target="_blank">
+												   <div class="h5 pull-right"><a href="/Deshboard/images/Residential Detached - Practice File.dxf" class="tooltip" target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
 
-															<div class="h5 pull-right"><a href="/Deshboard/images/NOC's For Industrial Occupancies.pdf" class="tooltip"><span class="tooltiptext">View</span>
+															<div class="h5 pull-right"><a href="/Deshboard/images/Residential Detached - Practice File.dxf" class="tooltip"><span class="tooltiptext">View</span>
 																<img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
@@ -662,7 +647,7 @@ function Dashboard() {
 												<div class="card-header" role="tab" id="heading-g">
 													<h5 class="mb-0">
 														<a class="collapsed" data-toggle="collapse" href="#collapse-g" data-parent="#content" aria-expanded="false" aria-controls="collapse-g">
-															Other Documents
+														User Manuals
 											  </a>
 													</h5>
 												</div>
@@ -670,24 +655,24 @@ function Dashboard() {
 												<div id="collapse-g" class="collapse" role="tabpanel" aria-labelledby="heading-g">
 
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Odisha CAF Rules Notification 2016
-													<div class="h5 pull-right"><a href="/Deshboard/images/Odisha CAF Rules Notification 2016.pdf" class="tooltip" target="_blank">
+														<div class="small font-weight-bold text-primary mb-1">OBPS User Manual_Architect & Technical Person
+													<div class="h5 pull-right"><a href="/Deshboard/images/OBPS User Manual_Architect & Technical Person.pdf" class="tooltip" target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Odisha CAF Rules Notification 2016.pdf" class="tooltip">
+															<div class="h5 pull-right"><a href="/Deshboard/images/OBPS User Manual_Architect & Technical Person.pdf" class="tooltip">
 																<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
 													</div>
 
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Odisha Planning and Building Standard Notification 2020
+														<div class="small font-weight-bold text-primary mb-1">OBPS User Manual_Citizen
 
-												   <div class="h5 pull-right"><a href="/Deshboard/images/Odisha Planning and Building Standard Notification 2020.pdf" class="tooltip" target="_blank">
+												   <div class="h5 pull-right"><a href="/Deshboard/images/OBPS User Manual_Citizen.pdf" class="tooltip" target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
 
-															<div class="h5 pull-right"><a href="/Deshboard/images/Odisha Planning and Building Standard Notification 2020.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
+															<div class="h5 pull-right"><a href="/Deshboard/images/OBPS User Manual_Citizen.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
 													</div>
@@ -700,7 +685,7 @@ function Dashboard() {
 												<div class="card-header" role="tab" id="heading-h">
 													<h5 class="mb-0">
 														<a class="collapsed" data-toggle="collapse" href="#collapse-h" data-parent="#content" aria-expanded="false" aria-controls="collapse-h">
-															Manuals
+														NOC list
 	  </a>
 													</h5>
 												</div>
@@ -708,27 +693,17 @@ function Dashboard() {
 												<div id="collapse-h" class="collapse" role="tabpanel" aria-labelledby="heading-h">
 
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Drawing Manual of Online Building Permission Application
-			<div class="h5 pull-right"><a href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.pdf" class="tooltip" target="_blank">
+														<div class="small font-weight-bold text-primary mb-1">NOC Mapping for all occuppancies
+			<div class="h5 pull-right"><a href="/Deshboard/images/NOC Mapping for all occuppancies.pdf" class="tooltip" target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.pdf" class="tooltip">
+															<div class="h5 pull-right"><a href="/Deshboard/images/NOC Mapping for all occuppancies.pdf" class="tooltip">
 																<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
 													</div>
 
-													{/* <div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">Odisha Planning and Building Standard Notification 2020
-
-		   <div class="h5 pull-right"><a href="/Deshboard/images/Odisha Planning and Building Standard Notification 2020.pdf" class="tooltip" target="_blank">
-																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
-															</div>
-
-															<div class="h5 pull-right"><a href="/Deshboard/images/Odisha Planning and Building Standard Notification 2020.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
-															</div>
-														</div>
-													</div> */}
+													
 
 												</div>
 											</div>
