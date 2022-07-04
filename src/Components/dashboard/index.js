@@ -431,10 +431,10 @@ function Dashboard() {
 
 													<div class="flex-grow-1 free-1">
 														<div class="small font-weight-bold text-primary mb-1">Drawing Manual_Odisha OBPS
-											<div class="h5 pull-right"><a href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.1.pdf" class="tooltip" target="_blank">
+											<div class="h5 pull-right"><a href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.2.pdf" class="tooltip" target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.1.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
+															<div class="h5 pull-right"><a href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.2.pdf" class="tooltip"><span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
 													</div>
@@ -458,11 +458,11 @@ function Dashboard() {
 
 													<div class="flex-grow-1 free-1">
 														<div class="small font-weight-bold text-primary mb-1">Odisha OBPS Drawing Template(DWG)
-											<div class="h5 pull-right"><a href="/Deshboard/images/Odisha OBPS Drawing Template_v1.1.dwg" class="tooltip"
+											<div class="h5 pull-right"><a href="/Deshboard/images/Odisha OBPS Drawing Template_v1.2.dwg" class="tooltip"
 																target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Odisha OBPS Drawing Template_v1.1.dwg" class="tooltip">
+															<div class="h5 pull-right"><a href="/Deshboard/images/Odisha OBPS Drawing Template_v1.2.dwg" class="tooltip">
 																<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
@@ -470,11 +470,11 @@ function Dashboard() {
 
 													<div class="flex-grow-1 free-1">
 														<div class="small font-weight-bold text-primary mb-1">Odisha OBPS Drawing Template(DXF)
-												<div class="h5 pull-right"><a href="/Deshboard/images/Odisha OBPS Drawing Template_v1.1.dxf" class="tooltip"
+												<div class="h5 pull-right"><a href="/Deshboard/images/Odisha OBPS Drawing Template_v1.2.dxf" class="tooltip"
 																target="_blank">
 																<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" /></a>
 															</div>
-															<div class="h5 pull-right"><a href="/Deshboard/images/Odisha OBPS Drawing Template_v1.1.dxf" class="tooltip">
+															<div class="h5 pull-right"><a href="/Deshboard/images/Odisha OBPS Drawing Template_v1.2.dxf" class="tooltip">
 																<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" /></a>
 															</div>
 														</div>
